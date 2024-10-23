@@ -2,82 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elise Huang - Personal Website</title>
+    <title>Elise Huang's Personal Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
+            line-height: 1.6;
+            margin: 40px;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
             text-align: center;
         }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        h1 {
+            font-size: 2em;
         }
-        h1, h2 {
-            color: #4CAF50;
+        h2 {
+            font-size: 1.5em;
+        }
+        p {
+            margin-bottom: 1em;
         }
         ul {
-            list-style-type: none;
-            padding: 0;
+            list-style-type: disc;
+            margin-left: 20px;
         }
-        ul li {
-            margin: 10px 0;
+        a {
+            color: #007bff;
+            text-decoration: none;
         }
-        footer {
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-            background-color: #333;
-            color: white;
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Hello, I am Elise Huang</h1>
+        <p>Welcome to my website!</p>
+    </header>
 
-<header>
-    <h1>Hello, I am Elise Huang</h1>
-    <p>Welcome to my website!</p>
-</header>
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>I am currently enrolled in the MSc program in Cross-disciplinary Technology at Lingnan University, Hong Kong. I am studying a course on creating a simple personal website, and I am delighted that you have visited this page!</p>
+    </section>
 
-<section>
-    <h2>About Me</h2>
-    <p>Hi there, I am currently enrolled in the MSc program in Cross-disciplinary Technology at Lingnan University, Hong Kong. I am also studying a course on creating a simple personal website, and I’m thrilled you are visiting this page!</p>
-    
-    <h2>Contact</h2>
-    <p>E-mail: <a href="mailto:yuqihuang3@ln.hk">yuqihuang3@ln.hk</a></p>
-    
-    <h2>Study Interests</h2>
-    <ul>
-        <li>Business Finance</li>
-        <li>Arts Management</li>
-        <li>Artificial Intelligence</li>
-    </ul>
-    
-    <h2>Personal Interests</h2>
-    <ul>
-        <li>Traveling</li>
-        <li>Movies</li>
-        <li>Art</li>
-    </ul>
-    
-    <h2>Favorite Quote</h2>
-    <p><em>"The learned can see twice."</em></p>
-</section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>E-mail: <a href="mailto:yuqihuang3@ln.hk">yuqihuang3@ln.hk</a></p>
+    </section>
 
-<footer>
-    <p>&copy; 2024 Elise Huang</p>
-</footer>
+    <section id="study-interests">
+        <h2>Study Interests</h2>
+        <ul>
+            <li>Business Finance</li>
+            <li>Arts Management</li>
+            <li>Artificial Intelligence</li>
+        </ul>
+    </section>
 
+    <section id="personal-interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Traveling</li>
+            <li>Movies</li>
+            <li>Art</li>
+        </ul>
+    </section>
+
+    <section id="favorite-quote">
+        <h2>Favorite Quote</h2>
+        <blockquote>
+            <p>The learned can see twice.</p>
+        </blockquote>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting my page! If you have any questions or would like to connect, please feel free to reach out.</p>
+    </footer>
 </body>
 </html>
